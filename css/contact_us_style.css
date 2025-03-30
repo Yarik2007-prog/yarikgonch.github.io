@@ -1,0 +1,1089 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 2000px;
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #F7F7F7;
+}
+/*-----------header-------------*/
+
+.header{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 182px;
+}
+
+.img_header_contact{
+    width: 100%;
+}
+
+.search{
+    border: none;
+    border-bottom: 2px solid #324950;
+    width: 380px ;
+    background: none;
+}
+
+.col-md-5 .search-icon{
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid #324950;
+    background: none;
+}
+
+
+ul.nav_panel{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#324950;
+    font-family: 'Heebo', sans-serif; 
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #57984C;
+    transition: 0.3s;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+
+}
+nav{
+    margin-top: 50px;
+    position: relative;
+    right: 175px;
+    font-size: 18px;
+}
+
+/*-------------------main----------------------*/
+
+.contact_name{
+    position: relative;
+    margin-top: 26%;
+    margin-left: 15%;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #324950;
+}
+
+.mult{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+input:required:invalid {
+    border: 2px solid red;
+  }
+
+#name, #seed-producer, #comp_name, #position, #country, #city, #tel, #mail{
+    position: relative;
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    border-width: 1px;
+    border: 1px solid #DADADA;
+}
+
+.name{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#seed-producer, #if_other, #int{
+    position: relative;
+    width: 635px;
+    height: 55px;
+    border-radius: 10px;
+    border-width: 1px;
+    border: 1px solid #DADADA;
+    color: #324950;
+}
+
+.select{
+    position: relative;
+    margin-top: 10%;
+}
+
+.if_other, .int{
+    position: relative;
+    margin-top: 7%;
+}
+
+.comp_name, .position, .mail{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+
+#int{
+    position: relative;
+    width: 634px;
+    height: 390px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#city{
+    position: relative;
+}
+
+.city, .tel, .country{
+    position: relative;
+    margin-left: 15.5%;
+}
+
+.city{
+    position: relative;
+    margin-top: -22%;
+}
+
+.tel, .country{
+    position: relative;
+    margin-top: 3%;
+}
+
+.capchia {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.col-md-6{
+    position: relative;
+}
+
+.capchia label {
+    margin-bottom: 5px;
+    margin-left: -50%; 
+}
+
+.capchia input {
+    width: 150px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.capchia_in{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.cap{
+    margin-top: 1%;
+    margin-left: -8%;
+}
+
+#capchia{
+    margin-top: 3%;
+    width: 225px;
+    height: 55px;
+    border-radius: 10px;
+    border-width: 1px;
+    border: 1px solid #DADADA;
+}
+
+.outher{
+    position: relative;
+}
+
+.send{
+    width: 255px;
+    height: 55px;
+    top: 1520.5px;
+    left: 1260px;
+    border-radius: 60px;
+    color: #FFFFFF;
+    background-color: #57984C;
+    border: 1px solid #57984C;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+
+.send:hover{
+    transition: 0.3s;
+    background-color: #324950;
+}
+
+.contact_info{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #FFFFFF;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.contact_info_name{
+    position: relative;
+    margin-top: 4%;
+    color: #57984C;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 143%;
+    letter-spacing: 0%;
+}
+
+.contact_info_lot{
+    position: relative;
+    margin-top: 0.5%;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tel_info{
+    text-decoration: none;
+    color: #57984C;
+    transition: 0.3s;
+}
+
+.tel_info:hover{
+    color: #324950;
+}
+
+/*------------footer-----------*/
+
+.footer{
+    width: 100%;
+    height: 140px;
+    background-color: #324950;
+    margin-top: 1%;
+}
+
+.footer_first{
+    width: 100%;
+    height: 76px;
+    background-color: #2D3F45;
+}
+
+.footer_list_items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.prof, .manag, .prod, .r_a_d, .link, .s_map, .contact{
+    padding-left: 40px;
+}
+
+.prof{
+    margin-left: 100px;
+}
+
+.info_footer{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size:15px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #B9B9B9;
+    margin-top: 25px;
+}
+
+.footer_imgs_list {
+    display: flex;
+    list-style: none;
+    margin-top: 26px;
+    padding-left: 330px;
+}
+
+.footer_imgs_list li{
+    margin-right: 10px;
+}
+
+@media (max-width:1024px){
+
+    .img_header_contact{
+        width: 100%;
+        margin-top: -3%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: -50%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 20%;
+    }
+
+    .select{
+        margin-left: 20%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .cap {
+      margin-left: -2%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 150px;
+    }
+
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 100px;
+    }
+
+    .footer_imgs{
+        margin-left: -90%;
+        margin-top: 12%;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .img_header_contact{
+        width: 100%;
+        margin-top: -40%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 5%;
+    }
+
+    .select{
+        margin-left: 40%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        margin-left: 2%;
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .if_other{
+        margin-left: 10%;
+    }
+
+    .cap {
+      margin-left: 20%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .outher{
+        margin-left: -10%;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 450px;
+    }
+ 
+ .footer_list_items{
+     display: list-item;
+     margin-left: 20%;
+     width: 250px;
+     height: 150px;
+ }
+ 
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 300px;
+    }
+ 
+    .prof{
+     margin-left: 36%;
+    }
+ 
+    .manag{
+     margin-left: 35%;
+    }
+ 
+    .prod{
+     margin-left: 38%;
+    }
+ 
+    .r_a_d{
+     margin-left: 38%;
+    }
+ 
+    .link, .s_map, .contact{
+     margin-left: 38%;
+    }
+ 
+    .footer_imgs_list li{
+        margin-top: -50px;
+        width: 150px;
+    }
+ 
+    .inst, .y_t, .tw, .fb{
+     margin-left: -10%;
+    }
+ 
+    .in{
+     margin-left: 48%;
+    }
+ 
+    .info_footer{
+     margin-top: 10%;
+    }
+}
+
+@media (max-width:640px){
+    .img_header_contact{
+        width: 100%;
+        margin-top: -40%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 5%;
+    }
+
+    .select{
+        margin-left: 40%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        margin-left: 2%;
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .if_other{
+        margin-left: 10%;
+    }
+
+    .cap {
+      margin-left: 20%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .outher{
+        margin-left: -10%;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 450px;
+    }
+ 
+ .footer_list_items{
+     display: list-item;
+     margin-left: 20%;
+     width: 250px;
+     height: 150px;
+ }
+ 
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 300px;
+    }
+ 
+    .prof{
+     margin-left: 36%;
+    }
+ 
+    .manag{
+     margin-left: 35%;
+    }
+ 
+    .prod{
+     margin-left: 38%;
+    }
+ 
+    .r_a_d{
+     margin-left: 38%;
+    }
+ 
+    .link, .s_map, .contact{
+     margin-left: 38%;
+    }
+ 
+    .footer_imgs_list li{
+        margin-top: -50px;
+        width: 150px;
+    }
+ 
+    .inst, .y_t, .tw, .fb{
+     margin-left: -10%;
+    }
+ 
+    .in{
+     margin-left: 38%;
+    }
+ 
+    .info_footer{
+     margin-top: 10%;
+    }
+}
+
+@media (max-width:480px){
+
+    .img_header_contact{
+        width: 100%;
+        margin-top: -40%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 5%;
+    }
+
+    .select{
+        margin-left: 40%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        margin-left: 2%;
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .if_other{
+        margin-left: 10%;
+    }
+
+    .cap {
+      margin-left: 20%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .outher{
+        margin-left: -10%;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 450px;
+    }
+ 
+ .footer_list_items{
+     display: list-item;
+     margin-left: 20%;
+     width: 250px;
+     height: 150px;
+ }
+ 
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 300px;
+    }
+ 
+    .footer_list_items li{
+        margin-left:2%;
+    }
+ 
+    .footer_imgs_list li{
+        margin-top: -50px;
+        width: 150px;
+    }
+ 
+    .inst, .y_t, .tw, .fb{
+     margin-left: -10%;
+    }
+ 
+    .in{
+     margin-left: 28%;
+    }
+ 
+    .info_footer{
+     margin-top: 10%;
+    }
+}
+
+@media (max-width:400px){
+    .img_header_contact{
+        width: 100%;
+        margin-top: -40%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 5%;
+    }
+
+    .select{
+        margin-left: 40%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        margin-left: 2%;
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .if_other{
+        margin-left: 10%;
+    }
+
+    .cap {
+      margin-left: 20%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .outher{
+        margin-left: -10%;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 450px;
+    }
+ 
+ .footer_list_items{
+     display: list-item;
+     margin-left: 20%;
+     width: 250px;
+     height: 150px;
+ }
+ 
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 300px;
+    }
+ 
+    .footer_list_items li{
+        margin-left: -25%;
+    }
+ 
+    .footer_imgs_list li{
+        margin-top: -20px;
+        width: 150px;
+    }
+ 
+    .inst, .y_t, .tw, .fb{
+     margin-left: -10%;
+    }
+ 
+    .in{
+     margin-left: 18%;
+    }
+ 
+    .info_footer{
+     margin-top: 10%;
+    }
+}
+
+@media (max-width:320px){
+    .nav_panel li{
+        display: none;
+    }
+
+    .img_header_contact{
+        width: 100%;
+        margin-top: -40%;
+    }
+
+    body{
+         height: auto;
+         text-align: center;
+    }
+
+    .header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact_name, .mult{
+        margin-left: 5%;
+    }
+
+    .nav_panel{
+        text-align: center;
+        font-size: 70%;
+        margin-top: 25%;
+        margin-left: -50%;
+    }
+
+    .search{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .name, .position, .mail{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .comp_name{
+        margin-left: 5%;
+    }
+
+    .select{
+        margin-left: 40%;
+        width: 200px;
+    }
+
+
+    .if_other{
+        margin-left: -15%;
+    }
+
+    #int{
+        margin-left: 2%;
+        height: 120px;
+    }
+
+    .city{
+        margin-top: 5%;
+    }
+
+    #seed-producer, #if_other, #int{
+        width: 220px
+    }
+
+    .if_other{
+        margin-left: 10%;
+    }
+
+    .cap {
+      margin-left: 10%;  
+    }
+
+    #capchia{
+        width: 100px;
+    }
+
+    .outher{
+        margin-left: -10%;
+    }
+
+    .send{
+        width: 20%;
+        margin-left: -5%;
+    }
+
+    .footer{
+        width: auto;
+        height: 450px;
+    }
+ 
+ .footer_list_items{
+     display: list-item;
+     margin-left: 20%;
+     width: 250px;
+     height: 150px;
+ }
+ 
+    .footer_first{
+        width: auto;
+        text-align: center;
+        height: 300px;
+    }
+ 
+    .footer_list_items li{
+        margin-left: -50%;
+    }
+ 
+    .footer_imgs_list li{
+        margin-top: -10px;
+        width: 150px;
+    }
+ 
+    .inst, .y_t, .tw, .fb{
+     margin-left: -10%;
+    }
+ 
+    .in{
+     margin-left: 3%;
+    }
+ 
+    .info_footer{
+     margin-top: 10%;
+    }
+}
